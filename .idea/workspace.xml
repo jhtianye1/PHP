@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e09c0971-06e0-492e-ad1a-7e1826d553f9" name="Default" comment="数组对比是否完全不同">
+    <list default="true" id="e09c0971-06e0-492e-ad1a-7e1826d553f9" name="Default" comment="测试同时deployment和commit github">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/testPHP.php" afterPath="$PROJECT_DIR$/test/testPHP.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/test/testPHP.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5528701" vertical-offset="3834" max-vertical-offset="4500">
-              <caret line="210" column="17" selection-start-line="210" selection-start-column="17" selection-end-line="210" selection-end-column="17" />
+              <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -265,7 +265,13 @@
       <option name="project" value="LOCAL" />
       <updated>1418201463300</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="测试同时deployment和commit github">
+      <created>1418201542099</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1418201542099</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +321,8 @@
     <MESSAGE value="delete some files" />
     <MESSAGE value="NEW" />
     <MESSAGE value="数组对比是否完全不同" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组对比是否完全不同" />
+    <MESSAGE value="测试同时deployment和commit github" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试同时deployment和commit github" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -373,7 +380,7 @@
     <entry file="file://$PROJECT_DIR$/test/testPHP.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5528701" vertical-offset="3834" max-vertical-offset="4500">
-          <caret line="210" column="17" selection-start-line="210" selection-start-column="17" selection-end-line="210" selection-end-column="17" />
+          <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
           <folding />
         </state>
       </provider>
