@@ -199,7 +199,19 @@
     var_dump($x);
 
 ?>
+<?php
+    echo "<hr>if语句</br>";
 
+    $t = date(H); //双引号有没有不影响结果
+    if ($t < "0") {  //双引号有没有不影响结果
+        echo "have a good day";
+
+
+    } else {
+        echo "000";
+    }
+
+?>
 
 </body>
 </html>
