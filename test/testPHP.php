@@ -178,34 +178,24 @@
     echo "<hr>数组比较</br>";
 
     $x = array("a" => "red", "b" => "green");
-    $y = array("c" => "blue", "d" => "yellow");
-    $a1 = array("b" => "green", "d" => "yellow");
-    $a2 = array("b" => "green","a" => "red");
-    $a3 = array("a"=>"red1", "b" =>"green1");
+    $x2 = array("b" => "green", "a" => "red");
+    $x3 = array("b" => "green1", "a" => "red");
 
-    $z = $x + $y; // $x 与 $y 的联合
-    var_dump($z);
     echo "<br>";
-    var_dump($x == $y); //false
+    var_dump($x3 != $x); //true
     echo "<br>";
-    var_dump($x === $y); //false1ss
+
     echo "<br>";
-    var_dump($x != $y); //true
+    var_dump($x2 != $x);//false  只是顺序不同, 键值对相同.
     echo "<br>";
-    var_dump($x <> $y); //true
+
+    echo "x2!==x";
+    var_dump($x2 !== $x); //true
     echo "<br>";
-    var_dump($x !== $y); //true
+    echo "x2";
+    var_dump($x2);
     echo "<br>";
-    var_dump($a1!=$x);  //true
-    echo "<br>";
-    var_dump($a1!==$x);  //true
-    echo "<br>";
-    var_dump($a2!==$x); //true
-    echo "<br>";
-    var_dump($a3!=$x); //true
-    echo "<br>";
-    var_dump($a2);
-    echo "<br>";
+    echo "$x";
     var_dump($x);
 
 ?>
