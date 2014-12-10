@@ -188,7 +188,7 @@
     echo "<br>";
     var_dump($x == $y); //false
     echo "<br>";
-    var_dump($x === $y); //false1
+    var_dump($x === $y); //false1ss
     echo "<br>";
     var_dump($x != $y); //true
     echo "<br>";
