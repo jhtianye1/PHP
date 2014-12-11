@@ -212,6 +212,14 @@
     }
 
 ?>
+<?php
+    echo "<hr>foreach</br>";
+
+    $color = array("blue", "red", "orange");
+    foreach ($color as $item) {
+        echo "$item";
+    }
+?>
 
 <?php
 
