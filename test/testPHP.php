@@ -217,23 +217,191 @@
 
     $color = array("blue", "red", "orange");
     foreach ($color as $item) {
-        echo "$item"; //echo "$item" +"</br>" 会输出为000, 变量和html标签不能放在一起.
-        echo "</br>";
+        /*     echo "$item"; //echo "$item" +"</br>" 会输出为000, 变量和html标签不能放在一起.
+             echo "</br>";*/
+        echo "$item" . "</br>"; //用.链接就没有问题,  把前后都当作字符串.
 
     }
+    echo "<hr></br>";
 
     $ship = array("color" => "red", "size" => "16", "speed" => "20jie");
     foreach ($ship as $a => $b) {
-        echo "$a=>$b";
-        echo "</br>";
+        echo "$a=>$b" . "</br>";
+        //        echo "</br>";
 
     }
 ?>
 
+<!--PHP 的真正力量来自它的函数：它拥有超过 1000 个内建的函数。-->
+<!--PHP - 数组的排序函数-->
 <?php
+    echo "<hr>数组排序</br>";
+    echo "sort升序" . "</br>";
+
+    $cars = array("Volvo", "BMW", "SAAB");
+    sort($cars);
+
+    $clength = count($cars);
+    for ($x = 0; $x < $clength; $x++) {
+        echo $cars[ $x ];
+        echo "<br>";
+    }
+    echo "<hr>rsort降序</br>";
+
+    $cars = array("Volvo", "BMW", "SAAB");
+    rsort($cars);
+
+    $clength = count($cars);
+    for ($x = 0; $x < $clength; $x++) {
+        echo $cars[ $x ];
+        echo "<br>";
+    }
+
+    echo "<hr>asort值升序</br>";
+    $age = array("Bill" => "35", "Steve" => "37", "Peter" => "43");
+    asort($age);
+
+    foreach ($age as $x => $x_value) {
+        echo "Key=" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
+    echo "<hr>ksrot键升序</br>";
+
+    $age = array("Bill" => "35", "Steve" => "37", "Peter" => "43");
+    ksort($age);
+
+    foreach ($age as $x => $x_value) {
+        echo "Key=" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
+
+    echo "<hr>arsort值降序</br>";
+    $age = array("Bill" => "35", "Steve" => "37", "Peter" => "43");
+    arsort($age);
+
+    foreach ($age as $x => $x_value) {
+        echo "Key=" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
+    echo "<hr>krsort键降序</br>";
+
+    $age = array("Bill" => "35", "Steve" => "37", "Peter" => "43");
+    krsort($age);
+
+    foreach ($age as $x => $x_value) {
+        echo "Key=" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
 
 ?>
 
+
+
+<!--超全局变量 在 PHP 4.1.0 中引入，是在全部作用域中始终可用的内置变量。-->
+<!--•$GLOBALS
+•$_SERVER
+•$_REQUEST
+•$_POST
+•$_GET
+•$_FILES
+•$_ENV
+•$_COOKIE
+•$_SESSION-->
+<?php
+    echo "<hr>全局$globals</br>";
+    $x = 30;
+    $y = 65;
+
+    function addition() {
+        $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+    }
+
+    addition();
+    echo $z;
+
+    echo "<hr>_SERVER 这种超全局变量保存关于报头、路径和脚本位置的信息。</br>";
+
+    foreach ($_SERVER as $key => $value) {
+        echo "$key =>" . "$value" . "</br>";
+    }
+
+
+?>
+
+<hr>
+PHP $_REQUEST 用于收集 HTML 表单提交的数据。</br>
+<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"> <!--action提交到php代码输出的路径:/testphp.php-->
+
+    Name: <input type="text" name="fname">
+    <input type="submit">
+</form>
+
+<?php
+
+    $name = $_REQUEST['fname'];
+    echo $name;
+?>
+
+<hr>
+PHP $_POST 广泛用于收集提交 method="post" 的 HTML 表单后的表单数据。$_POST 也常用于传递变量。<br>
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    Name: <input type="text" name="fname">
+    <input type="submit">
+</form>
+
+<?php
+    $name = $_POST['fname'];
+    echo $name;
+?>
+
+
+
+<hr>
+$_GET 也可以收集 URL 中的发送的数据。<br>
+<a href="test_get.php?subject=PHP& web=W3school.com.cn">测试 $GET</a>
+
+<!--test_get.php的内容如下-->
+<?php
+    /*    echo "Study " . $_GET['subject'] . " at " . $_GET['web']; //$_GET接收到url传来的subject和web变量
+    */
+?>
+
+
+<hr>
+PHP 表单处理
+<br>
+
+<form action="/welcome.php" method="post">
+    姓名：<input type="text" name="name"><br>
+    电邮：<input type="text" name="email"><br>
+    <input type="submit">
+</form>
+
+<!--$_GET 是通过 URL 参数传递到当前脚本的变量数组。-->
+<!--$_POST 是通过 HTTP POST 传递到当前脚本的变量数组。-->
+
+<!--PHP 表单验证-->
+<!--
+htmlspecialchars() 函数把特殊字符转换为 HTML 实体。这意味着 < 和 > 之类的 HTML 字符会被替换为 &lt; 和 &gt;
+。这样可防止攻击者通过在表单中注入 HTML 或 JavaScript 代码（跨站点脚本攻击）对代码进行利用。-->
+
+
+<!--关于 PHP 表单安全性的重要提示-->
+
+<a href="http://test.huasushidai.com/testphp.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script%3E"> 这个破坏性的url测试,
+    chrome失效了, QQ浏览器有效, ie也有效.</a>
+<a href="http://test.huasushidai.com/testphp.php/%22%3E%3Cscript%3document.write(" hack")%3C/script%3E"> 这个破坏性的url测试,
+chrome失效了, QQ浏览器有效, ie也有效.</a>
+<form action="<? php;
+    echo $_SERVER["PHP_SELF"] ?>">
+
+</form>
+<script>
+    document.write("<p>")
+    hack
+    document.write("</p>")
+</script>
 </body>
 
 </html>
