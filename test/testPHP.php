@@ -213,11 +213,20 @@
 
 ?>
 <?php
-    echo "<hr>foreach</br>";
+    echo "<hr>test foreach</br>";
 
     $color = array("blue", "red", "orange");
     foreach ($color as $item) {
-        echo "$item";
+        echo "$item"; //echo "$item" +"</br>" 会输出为000, 变量和html标签不能放在一起.
+        echo "</br>";
+
+    }
+
+    $ship = array("color" => "red", "size" => "16", "speed" => "20jie");
+    foreach ($ship as $a => $b) {
+        echo "$a=>$b";
+        echo "</br>";
+
     }
 ?>
 
