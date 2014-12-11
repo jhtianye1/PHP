@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="亚韩国际美容医院133" uploadOnCheckin="38e24314-b297-4208-a26b-2415627223cb">
+  <component name="PublishConfigData" serverName="亚韩国际美容医院133" uploadOnCheckin="38e24314-b297-4208-a26b-2415627223cb">
     <serverData>
       <paths name="亚韩国际美容医院133">
         <serverdata>
@@ -11,7 +11,6 @@
       </paths>
     </serverData>
     <option name="myUploadOnCheckinName" value="亚韩国际美容医院133" />
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
 
