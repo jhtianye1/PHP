@@ -390,18 +390,19 @@ htmlspecialchars() 函数把特殊字符转换为 HTML 实体。这意味着 < �
 <!--关于 PHP 表单安全性的重要提示-->
 
 <a href="http://test.huasushidai.com/testphp.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script%3E"> 这个破坏性的url测试,
-    chrome失效了, QQ浏览器有效, ie也有效.</a>
-<a href="http://test.huasushidai.com/testphp.php/%22%3E%3Cscript%3document.write(" hack")%3C/script%3E"> 这个破坏性的url测试,
-chrome失效了, QQ浏览器有效, ie也有效.</a>
+    chrome失效了!!, QQ浏览器有效, ie也有效.</a>
+
+<!--<a href="http://test.huasushidai.com/testphp.php/%22%3E%3Cscript%3document.write(" hack")%3C/script%3E"> 这个破坏性的url测试,
+chrome失效了, QQ浏览器有效, ie也有效.</a>-->
+
 <form action="<? php;
-    echo $_SERVER["PHP_SELF"] ?>">
+    echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>"
 
 </form>
-<script>
-    document.write("<p>")
-    hack
-    document.write("</p>")
-</script>
+<?php
+
+?>
+
 </body>
 
 </html>
