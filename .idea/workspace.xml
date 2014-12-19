@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fb8aef-1450-41ed-adfc-e875c8fa0dae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/default/form_target.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,8 +31,8 @@
       <file leaf-file-name="index.dwt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/jd2013/index.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2945508" vertical-offset="0" max-vertical-offset="27720">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.21060383" vertical-offset="5997" max-vertical-offset="27720">
+              <caret line="307" column="24" selection-start-line="307" selection-start-column="24" selection-end-line="307" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -64,6 +63,7 @@
         <option value="$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/default/form_target.html" />
         <option value="$PROJECT_DIR$/shop_huasushidai/wwwroot/temp/compiled/flow.dwt.php" />
         <option value="$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/jd2013/flow.dwt" />
+        <option value="$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/jd2013/index.dwt" />
       </list>
     </option>
   </component>
@@ -161,6 +161,32 @@
               <option name="myItemId" value="shop_huasushidai" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop_huasushidai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -199,15 +225,15 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="a43eb6b9-c1bd-4cc5-b08a-3a4d8edee316" server_name="aliyun">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="a43eb6b9-c1bd-4cc5-b08a-3a4d8edee316" server_name="aliyun">
       <method />
     </configuration>
     <list size="0" />
@@ -259,35 +285,41 @@
       <option name="project" value="LOCAL" />
       <updated>1418892934165</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="商城&quot;提交订单&quot;,  页面不会关闭,  成功">
+      <created>1418959165690</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1418959165690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58414465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19127086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19383825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -309,9 +341,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30744544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -335,13 +367,26 @@
     <MESSAGE value="媒体广告商城的链接改为商城" />
     <MESSAGE value="浙ICP备14040022号-2" />
     <MESSAGE value="商城安全验证代码, 已经放在index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="商城安全验证代码, 已经放在index.html" />
+    <MESSAGE value="商城&quot;提交订单&quot;,  页面不会关闭,  成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="商城&quot;提交订单&quot;,  页面不会关闭,  成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/jd2013/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -437,44 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="574.2857" vertical-offset="16080" max-vertical-offset="55640">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="select goods.._GLOBALS_ecs_table_goods_ where..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT count.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT shipp.._ecs_table_shipping_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT ':_ne.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT goods.._GLOBALS_ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT goods.._ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT goods.._ecs_table_collect_goods_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT produ.._GLOBALS_ecs_table_products_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT b.goo.._GLOBALS_ecs_table_cart_ a..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT produ.._GLOBALS_ecs_table_products_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._GLOBALS_ecs_table_cart_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT c.rec.._GLOBALS_ecs_table_cart_ AS..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT c.rec.._GLOBALS_ecs_table_cart_ AS..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI.._GLOBALS_ecs_table_cart_&#10;            WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._GLOBALS_ecs_table_goods_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT brand.._GLOBALS_ecs_table_brand_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT cat_n.._GLOBALS_ecs_table_category_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT goods.._GLOBALS_ecs_table_goods_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="SELECT ':__S.._GLOBALS_ecs_table_goods_ WHERE..." />
-            <marker date="1418296461000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -490,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -498,12 +503,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.585254" vertical-offset="6240" max-vertical-offset="7080">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1412669142000" expanded="true" signature="-1:-1" placeholder="SELECT ad_ty.._ecs_table_ad_custom_ WHERE..." />
-            <marker date="1412669142000" expanded="true" signature="-1:-1" placeholder="SELECT c.cat.._ecs_table_cat_recommend_ AS..." />
-            <marker date="1412669142000" expanded="true" signature="-1:-1" placeholder="SELECT o.ord.._GLOBALS_ecs_table_order_info_ AS..." />
-            <marker date="1412669142000" expanded="true" signature="-1:-1" placeholder="SELECT link_.._GLOBALS_ecs_table_friend_link_ ORDER..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -511,15 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1086262" vertical-offset="7632" max-vertical-offset="18580">
           <caret line="385" column="119" selection-start-line="385" selection-start-column="113" selection-end-line="385" selection-end-column="128" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/default/flow.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="15722" max-vertical-offset="18100">
-          <caret line="797" column="20" selection-start-line="797" selection-start-column="16" selection-end-line="797" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="380">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,14 +528,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.851852" vertical-offset="16452" max-vertical-offset="17740">
           <caret line="833" column="43" selection-start-line="833" selection-start-column="37" selection-end-line="833" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/default/flow.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32568806" vertical-offset="15747" max-vertical-offset="18100">
+          <caret line="798" column="0" selection-start-line="798" selection-start-column="0" selection-end-line="798" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21559633" vertical-offset="8199" max-vertical-offset="9580">
+          <caret line="417" column="17" selection-start-line="417" selection-start-column="17" selection-end-line="417" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_huasushidai/wwwroot/themes/jd2013/index.dwt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2945508" vertical-offset="0" max-vertical-offset="27720">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.21060383" vertical-offset="5997" max-vertical-offset="27720">
+          <caret line="307" column="24" selection-start-line="307" selection-start-column="24" selection-end-line="307" selection-end-column="24" />
           <folding />
         </state>
       </provider>
