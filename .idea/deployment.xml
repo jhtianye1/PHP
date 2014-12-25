@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="localhost" uploadOnCheckin="bc1e491b-4938-4a5a-9434-2923735aa50a">
+  <component name="PublishConfigData" autoUpload="Always" promptOnLocalOverwrite="false" uploadOnCheckin="5f2736dd-02c2-4309-91b0-4e50cc71ec1d" showEqualInSync="true" showNewOnTargetInSync="false">
     <serverData>
       <paths name="aliyun129">
         <serverdata>
@@ -9,22 +9,8 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="husushidai129">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/wwwroot" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="sc_huashushidai">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/wwwroot" local="$PROJECT_DIR$/shop_huasushidai/wwwroot" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="sc_huashushidai" />
+    <option name="myUploadOnCheckinName" value="localhost" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
